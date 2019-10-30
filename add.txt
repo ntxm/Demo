@@ -1,0 +1,39 @@
+
+public class TaskHW {
+	public static void main(String[] args) {	
+	
+	int[][] a = {
+			{1,1,1,1,1},
+			{1,1,1,1,1},
+			{1,1,1,1,1},
+			{1,1,1,1,1},
+			{1,1,1,1,1}
+		};
+		
+		int sumRowCount = 0;
+		int sumColCount = 0;
+		int row;
+		for(row = 0; row < a.length; row++){
+		  sumRowCount++;
+		  
+		  for(int col = 0; col < a[row].length; col++){
+		    sumColCount++;
+		    }
+		  }
+		  
+		  if(sumRowCount == sumColCount/sumRowCount){
+		    System.out.println("true");
+		  }else{
+		    System.out.println("false");
+		}
+	
+	
+	
+}
+}		
+		
+		
+		
+		
+		
+		
